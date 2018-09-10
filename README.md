@@ -3,9 +3,13 @@ In this repository you'll find the Python file that contains the starter code fo
 
 Download the `starter_code.py` file, and build your project by adding to that file! When you're done, submit your project by following the instructions in the classroom.
 
-If you want to play with a demo of this project, download one of the `rps_demo` files that ends with the `.pyc` file extension. You should download the file with a number that matches your version of Python. For example, if you have Python 3.7, you should download `rps_demo_37.pyc`.
+If you want to play with a demo of this project, download one of the `rps_demo` files that ends with the `.pyc` file extension. You should download the file with a number that matches your version of Python. For example, if you have Python 3.7, you should download `rps_demo_37.pyc`. If you run the file with a version of Python that doesn't match, you may get the following error:
 
-`.pyc` files can be run the same way as `.py` files, by using the `python` or `python3` command in your terminal, along with the name of the file. Like this:
+```text
+RuntimeError: Bad magic number in .pyc file
+```
+
+`.pyc` files are _compiled_ Python files. They can be run the same way as `.py` files, by using the `python` or `python3` command in your terminal, along with the name of the file. Like this:
 
 ```text
 python3 rps_demo_37.pyc
